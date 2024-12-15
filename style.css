@@ -1,0 +1,111 @@
+* {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: .68fr 2fr .4fr;
+    width: 100%;
+    height: 75px;
+}
+
+.header-lft {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+.header-mid {
+    margin: 5px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.input-mid {
+    width: 200;
+    height: 30px;
+}
+
+.nomarg {
+    margin: 0;
+}
+
+/* CONTENTS */
+.container {
+    display: grid;
+    grid-template-columns: .68fr 2fr .4fr;
+}
+
+/* LEFTCOLUMN *FIXED* */
+.leftcol {
+    width: 200px;
+    font-family: sans-serif;
+    position: fixed;
+    list-style-type: none;
+    padding: 10px 10px 0px 70px;
+    font-size: 90%;
+}
+
+/* MIDCOLUMN */
+.midcol {
+    font-size: 90%;
+    margin: 0px 0px 0px 5px;
+}
+
+.option {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 90%;
+    display: flex;
+    gap: 710px;
+    margin: 5px 0px 5px 0px;
+}
+
+.spacing {
+    margin: 0px 10px 10px 0px;
+}
+
+/* lightfont */
+.lightf {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sideInfo {
+    float: right;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    margin: 0px 0px 10px 10px;
+}
+
+.sideInfo2 {
+    float: right;
+    text-align: center;
+    width: 170px;
+    position: relative;
+    margin: 10px 0px 10px 10px;
+}
+
+.arrangeSI {
+    border: 1px solid gray;
+    background-color: #f8f9fa;
+    font-size: 75%;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.arrangeSI table {
+    text-align: left;
+}
